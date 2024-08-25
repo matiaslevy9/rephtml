@@ -4,129 +4,175 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Users/matiasnicolaslevy/Desktop/prepHenry/css/style.css">
     <title>Mi pagina web</title>
 </head>
 <body>
 
     <header>
         <!-- Informacion de encabezado, menu de nav y busqueda-->
-        <h1>Mi página web</h1>
+        <div id="mainTitle">
+            <h1 >Mi página web</h1>
+            <p>Mi nombre es Matias Levy.</p>
+        </div>
+        <br>
+    </header>
 
+    <nav>
         <span>HOME</span>
         <span>CLIMA</span>
         <span>DEPORTES</span>
         <span>CONTACTO</span>
+    </nav>
 
-        <p>Mi nombre es Matias Levy.</p>
-    </header>
-    <hr>
+    <br>
+<!--
     <main>
+    <div id="cards-container">  
+        <section>
+            <article> 
+                <div class="cards">
+                    <h2 class="title">Este es un titulo h2</h2>
+                    <img src="https://static.platzi.com/media/user_upload/estudiar-programacion-10550fe1-0634-4c45-a3de-e89a320290f3.jpg" alt="imagen de programacion" srcset="" id="imgSofware">
+                   
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ea quas architecto consequuntur cum, voluptas quam, vel illo debitis adipisci ab ex nemo omnis suscipit deserunt. Est, illo? Commodi, delectus.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis repellendus a explicabo earum veniam dicta, commodi vero perspiciatis temporibus ipsa quidem quasi sunt enim libero soluta! Amet facere totam laboriosam.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aut nisi quisquam aspernatur quibusdam quasi eos iure eius. Amet voluptas molestiae facere quas odio recusandae quisquam adipisci. Animi, rem quos?
+                        </p>
+                    
+                </div>  
+            </article>
+            <br>
+            <article > 
+                <div class="cards">
+                    <h3 class="title">Este es un titulo h3</h3>
 
+                    <div>
+                        <p>
+                            listado ORDENADO de cosas importantes:
+                            <ol>
+                                <li>Primer dato</li>
+                                <li>Segundo dato</li>
+                                <li>Tercer dato</li>
+                            </ol>
+                        </p>
+
+                        <p>
+                            listado DESORDENADO de cosas importantes:
+                            <ul>
+                                <li>Primer dato</li>
+                                <li>Segundo dato</li>
+                                <li>Tercer dato</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </article> 
+            <br>
+
+            <article> 
+                <div class="cards">
+                    <h4 class="title">Este es un titulo h4</h4>
+                    <div>   
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ea quas architecto consequuntur cum, voluptas quam, vel illo debitis adipisci ab ex nemo omnis suscipit deserunt. Est, illo? Commodi, delectus.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis repellendus a explicabo earum veniam dicta, commodi vero perspiciatis temporibus ipsa quidem quasi sunt enim libero soluta! Amet facere totam laboriosam.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aut nisi quisquam aspernatur quibusdam quasi eos iure eius. Amet voluptas molestiae facere quas odio recusandae quisquam adipisci. Animi, rem quos?
+                        </p>
+                    </div> 
+            </article>
+        </section>
+    </div>     
+    </main>
+--> 
+    <br>
+
+    <div id="cards-container">
+        <div class="cards">
+            <h3 class="title titulos">Titulo 1</h3>
+            <img src="https://lineadecodigo.com/wp-content/uploads/2014/04/css.png" alt="">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem cumque quae, ea quod hic quibusdam velit quidem at molestiae, aperiam et! Eius error necessitatibus delectus eos asperiores, atque quam beatae.
+            </p>
+        </div>
+        <div class="cards">
+            <h3 class="title titulos" >Titulo 2</h3>
+            <img src="https://lineadecodigo.com/wp-content/uploads/2014/04/css.png" alt="">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem cumque quae, ea quod hic quibusdam velit quidem at molestiae, aperiam et! Eius error necessitatibus delectus eos asperiores, atque quam beatae.
+            </p>
+        </div>
+        <div class="cards">
+            <h3 class="title titulos">Titulo 3</h3>
+            <img src="https://lineadecodigo.com/wp-content/uploads/2014/04/css.png" alt="" class="logo">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem cumque quae, ea quod hic quibusdam velit quidem at molestiae, aperiam et! Eius error necessitatibus delectus eos asperiores, atque quam beatae.
+            </p>
+        </div>
+    </div>
+    <br>
     <section>
-        <article> <!--Noticia 1-->
-            <h2>Este es un titulo h2</h2>
-            <img src="https://static.platzi.com/media/user_upload/estudiar-programacion-10550fe1-0634-4c45-a3de-e89a320290f3.jpg" alt="imagen de programacion" srcset="">
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ea quas architecto consequuntur cum, voluptas quam, vel illo debitis adipisci ab ex nemo omnis suscipit deserunt. Est, illo? Commodi, delectus.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis repellendus a explicabo earum veniam dicta, commodi vero perspiciatis temporibus ipsa quidem quasi sunt enim libero soluta! Amet facere totam laboriosam.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aut nisi quisquam aspernatur quibusdam quasi eos iure eius. Amet voluptas molestiae facere quas odio recusandae quisquam adipisci. Animi, rem quos?
-                </p>
-            </div>
-        </article>
-        <hr>
-        <article> <!--Noticia 2-->
-            <h2>Esta es la noticia  principal</h2>
-
-            <div>
-                <p>
-                    listado ORDENADO de cosas importantes:
-                    <ol>
-                        <li>Primer dato</li>
-                        <li>Segundo dato</li>
-                        <li>Tercer dato</li>
-                    </ol>
-                </p>
-
-                <p>
-                    listado DESORDENADO de cosas importantes:
-                    <ul>
-                        <li>Primer dato</li>
-                        <li>Segundo dato</li>
-                        <li>Tercer dato</li>
-                    </ul>
-                </p>
-            </div>
-         </article> 
-        <hr>
-
-        <article> <!--Noticia 3-->
-            <h2>Este es un titulo h2</h2>
-            <div>   
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ea quas architecto consequuntur cum, voluptas quam, vel illo debitis adipisci ab ex nemo omnis suscipit deserunt. Est, illo? Commodi, delectus.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis repellendus a explicabo earum veniam dicta, commodi vero perspiciatis temporibus ipsa quidem quasi sunt enim libero soluta! Amet facere totam laboriosam.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aut nisi quisquam aspernatur quibusdam quasi eos iure eius. Amet voluptas molestiae facere quas odio recusandae quisquam adipisci. Animi, rem quos?
-                </p>
-            </div> 
-        </article>
+        <div >
+            <form action="">
+                <div>
+                <label for="nombre">Nombre:
+                        <input type="text" name="nombre">
+                </label>
+                </div>
+                <br>
+                <div>
+                    <label for="apellido">Apellido:
+                        <input type="text" name="apellido">
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="correo"> Correo:
+                        <input type="email" name="correo">
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="edad"> Edad:
+                        <input type="number" name="edad">
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="passw"> Clave personal:
+                        <input type="password" name="passw" placeholder="Pon tu clave">
+                    </label>
+                </div>
+                <br>
+                <button>
+                    ENVIAR 
+                </button>
+            </form>
+        </div>
     </section>
-</main>
 
-<section>
-    <form action="">
-        <div>
-        <label for="nombre">Nombre:
-                <input type="text" name="nombre">
-        </label>
-        </div>
-        <div>
-            <label for="apellido">Apellido:
-                <input type="text" name="apellido">
-            </label>
-        </div>
-        <div>
-            <label for="correo"> Correo:
-                <input type="email" name="correo">
-            </label>
-        </div>
-        <div>
-            <label for="edad"> Edad:
-                <input type="number" name="edad">
-            </label>
-        </div>
-        <div>
-            <label for="passw"> Clave personal:
-                <input type="password" name="passw" placeholder="pon tu clave">
-            </label>
-        </div>
+    <br>
+    <hr>
 
-        <button>
-           ENVIAR 
-        </button>
-    </form>
-</section>
+    <footer>
+        <p>
+            Este es el footer de mi pagina
+        </p>
 
-<br>
-<hr>
-<footer>
-    <p>
-        Este es el footer de mi pagina
-    </p>
+        <span>
+            <a href="http://www.instagram.com/matimle" target="_blank" >Instagram</a>
+        </span>
 
-    <span>
-        <a href="http://www.instagram.com/matimle" target="_blank" >Instagram</a>
-    </span>
-
-</footer>
+    </footer>
 
 
 </body>

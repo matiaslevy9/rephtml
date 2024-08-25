@@ -1,0 +1,64 @@
+body{
+    background-color: aliceblue;
+}
+.title{
+    font-size: 2em;
+}
+#mainTitle{
+    font-size: 30px;
+    color: brown ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    
+}
+/*
+#imgSofware{
+
+height: 25%;
+width: 35%;
+    
+}
+*/
+
+#logos{
+ width: 300px;
+ height: 300px;
+}
+
+#cards-container{
+    
+    width: fit-content;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(54, 47, 47);
+    padding: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 2em  2em 1em;
+    margin: 2em;
+    border-radius: 2%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    
+}
+
+.cards:hover{
+    background-color: rgb(237, 162, 71);
+}
+
+
+
